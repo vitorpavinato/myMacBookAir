@@ -194,6 +194,39 @@ brew install maccy
 brew install --cask devtoys
 ```
 
+### For VPN/remote access to TempleU office computer
+1. Install Citrix Secure Access (from Appstore)
+2. Install Microsoft Remote Access (from Appstore)
+
+### For the R ecossystem
+I tried to find something similar I have for Python: `asdf` for managing Python versions and `Poetry` for package/installation management.
+
+I found [rig](https://github.com/r-lib/rig) that is R installation manager. Coupled with `renv` they should work just fine.
+
+1. Install rig:
+```zsh
+brew tap r-lib/rig
+brew install --cask rig
+
+brew upgrade --cask rig
+```
+
+Usage:
+```zsh
+# Install an R version (latest)
+rig add release
+
+# Set it as default
+rig default release
+```
+
+Install renv 
+```zsh
+# Install renv
+R
+# > install.packages("renv")
+```
+
 ### vscode extensions
 1. Python extension for Visual Studio Code
 2. Flake8
@@ -203,7 +236,5 @@ brew install --cask devtoys
 6. Black Formatter   
 7. Codeium (auto-pilot)
 8. learn-markdown 
-
-### For VPN/remote access to TempleU office computer
-1. Install Citrix Secure Access (from Appstore)
-2. Install Microsoft Remote Access (from Appstore)
+9. R Extension
+10. R debugger
