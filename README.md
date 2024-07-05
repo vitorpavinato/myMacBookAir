@@ -181,6 +181,11 @@ brew install obsidian
 
 17. Install Graphic (from Appstore)
 
+18. Install Slack 
+```zsh
+brew install --cask slack
+```
+
 Suggestions from ArjanCode 
 
 1. Install maccy (clipboard manager)
