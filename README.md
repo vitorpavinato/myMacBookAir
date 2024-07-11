@@ -186,6 +186,28 @@ brew install obsidian
 brew install --cask slack
 ```
 
+19. Install Vivaldi Browser (non-AI internet)
+```zsh
+brew install vivaldi
+```
+
+20. Install GNU parallel
+```zsh
+brew install parallel
+```
+
+21. Install Xcode (from Applestore)
+```zsh
+sudo xcodebuild -license accept
+```
+
+22. Install Keybase (encrypted chat)
+```zsh
+brew install keybase
+```
+
+
+
 Suggestions from ArjanCode 
 
 1. Install maccy (clipboard manager)
