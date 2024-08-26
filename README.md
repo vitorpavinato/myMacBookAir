@@ -111,6 +111,32 @@ eval "$(register-python-argcomplete pipx)"
 pipx install poetry
 ```
 
+7. Set Git Configurations
+```zsh
+gig config --global --edit
+git config --global user.name "Vitor Pavinato"
+git config --global user.email "vitorpavinato@users.noreply.github.com"
+git config --global core.editor "code --wait"
+git config --global core.autocrlf input
+git config --global init.defaultBranch main
+git config --global alias.graph "log --all --graph --decorate --oneline"
+git config --list
+```
+
+8. Authenticating to GitHub: SSH
+I might had followed [this](https://coderefinery.github.io/installation/ssh/).
+```zsh
+ssh-keygen -t rsa -b 4096
+cat /Users/vitorpavinato/.ssh/id_rsa.pub
+ssh git@github.com
+```
+
+9. Install git-credential-manager
+```zsh
+brew install --cask git-credential-manager
+brew upgrade --cask git-credential-manager
+```
+
 ## Applications that make all the difference
 1. Install Warp:
 ```zsh
@@ -152,61 +178,98 @@ brew install --cask raycast
 
 8. Install Dropbox (from Dropbox)
 
-<!-- 2. Install caffeine (maybe remove needs Rosetta)
+9. Install caffeine (maybe remove needs Rosetta)
 ```zsh
 brew install --cask caffeine
-``` -->
+# Need Rosetta. When I installed it, I didn' have Rosetta.
+# Later, maybe because some AppStore App needed Rosetta, it was installed.
+```
 
-9. Display directory as trees
+10. Display directory as trees
 ```zsh
 brew install tree
 ```
 
-10. Obsidian
+11. Obsidian
 ```zsh
 brew install obsidian
 ```
 
-11. Goodnotes (from Appstore)
+12. Goodnotes (from Appstore)
 
-12. Install 1password (from Appstore)
+13. Install 1password (from Appstore)
 
-13. Whatsapp (from Appstore)
+14. Whatsapp (from Appstore)
 
-14. Install MS Office (from TempleUPortal)
+15. Install MS Office (from TempleUPortal)
 
-15. Install NewTerminalHere (from Appstore)
+16. Install NewTerminalHere (from Appstore)
 
-16. Install ReadCube Papers
+17. Install ReadCube Papers
 
-17. Install Graphic (from Appstore)
+18. Install Graphic (from Appstore)
+Maybe was this one that installed Rosetta as a requirement.
 
-18. Install Slack 
+19. Install Slack 
 ```zsh
 brew install --cask slack
 ```
 
-19. Install Vivaldi Browser (non-AI internet)
+20. Install Vivaldi Browser (non-AI internet)
 ```zsh
 brew install vivaldi
 ```
 
-20. Install GNU parallel
+21. Install GNU parallel
 ```zsh
 brew install parallel
 ```
 
-21. Install Xcode (from Applestore)
+22. Install Xcode (from Applestore)
 ```zsh
 sudo xcodebuild -license accept
 ```
 
-22. Install Keybase (encrypted chat)
+23. Install Keybase (encrypted chat)
 ```zsh
 brew install keybase
 ```
 
+24. Install pdfsam-basic (merge pdfs)
+```zsh
+brew install pdfsam-basic
+```
 
+25. Install htop
+```zsh
+brew install htop
+```
+
+26. Install Powershell
+```zsh
+brew install powershell
+```
+
+To initialize the powershell, type in the terminal
+```zsh
+pwsh
+```
+
+Then run this code to make brew available in the powershell
+```zsh
+New-Item -Path (Split-Path -Parent -Path $PROFILE.CurrentUserAllHosts) -ItemType Directory -Force
+  Add-Content -Path $PROFILE.CurrentUserAllHosts -Value '$(/opt/homebrew/bin/brew shellenv) | Invoke-Expression'
+```
+
+27. Install (Desktop) chatGPT
+```zsh
+brew install --cask chatgpt
+```
+
+28. Install Logitech Logi Options+
+Download from Logitch website
+
+29. Install Tiimo (Ipad version from AppStore)
 
 Suggestions from ArjanCode 
 
@@ -265,3 +328,5 @@ R
 8. learn-markdown 
 9. R Extension
 10. R debugger
+
+
