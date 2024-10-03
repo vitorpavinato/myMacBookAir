@@ -271,6 +271,25 @@ Download from Logitch website
 
 29. Install Tiimo (Ipad version from AppStore)
 
+30. Install iTerm2 (optional):
+```zsh
+brew install iTerm2
+```
+
+31. Install Microsoft Edge (to export Marp Markdown Slide dec)
+```zsh
+brew install microsoft-edge
+```
+
+32. Install BananaBin from [here](https://bananabin.app/)
+
+33. Install Wolfram Player from [here](https://www.wolfram.com/player/)
+
+34. Install OpenRefine
+```zsh
+brew install --cask openrefine
+```
+
 Suggestions from ArjanCode 
 
 1. Install maccy (clipboard manager)
@@ -317,16 +336,29 @@ R
 # > install.packages("renv")
 ```
 
+Install Rstudio (optional but I like to have vscode and Rstudio set up for R):
+```zsh
+brew install rstudio
+```
+
 ### vscode extensions
-1. Python extension for Visual Studio Code
-2. Flake8
-3. Pylance
-4. Python Debugger
-5. yapf
-6. Black Formatter   
-7. Codeium (auto-pilot)
-8. learn-markdown 
-9. R Extension
-10. R debugger
+1. CMake (twxs)
+2. Cmake Tools
+3. C/C++
+4. C/C++ Themes
+5. Code Runner (Jun Han) 
+6. Codeium
+7. Jupyter
+8. Jupyter Cell Tags
+9. Jupyter Keymap
+10. Jupyter Notebook Renders
+11. Jupyter Slide Show
+12. learn-markdown
+13. Marp for VS Code
+14. Pylint
+15. Python
+16. Python Debugger
+17. R Extension
+18. R debugger
 
 
