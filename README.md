@@ -290,6 +290,27 @@ brew install microsoft-edge
 brew install --cask openrefine
 ```
 
+35. Install cyberduck (for sftp connection)
+```zsh
+brew install --cask cyberduck
+```
+
+36. Install Mountain Duck (from the same company of cyberduck but it mount the sftp as an external drive) from [here](https://mountainduck.io/) 
+
+37. Install Kindle (from App store)
+
+38. Install Claude.ai desktop (from Claude.ai)
+
+39. Install Brain.fm desktop (from Brain.fm)
+
+40. Install Proton (mail/VNP/Storage from Proton.me website)
+I am trying to move away from american email providers since US regulation on privacy is awful.
+Proton.me services were built for privacy (the company was started by former CERN scientists).
+Better be safe than sorry when we talk about privacy. I subscribed to the Pro membership which comes 
+with email, storage, VPN, password manager etc. For the moment I only tested the email, storage and VPN.
+
+41. SLiM/Eidos (from Messer's lab website)
+
 Suggestions from ArjanCode 
 
 1. Install maccy (clipboard manager)
@@ -341,6 +362,22 @@ Install Rstudio (optional but I like to have vscode and Rstudio set up for R):
 brew install rstudio
 ```
 
+## For the GO language
+I installed GO from the package manager downloaded at [go.dev](https://go.dev/doc/install).
+It seems to be the easiest way to install and the go installation allow the installation of 
+multiple versions. (throught ASDF is also possible but seems too complicated; see [here](https://gist.github.com/felipemeamaral/7ef508e59a42c4fa0d0b74f219f726c1)).
+
+```zsh
+The package installs the Go distribution to /usr/local/go. 
+The package should put the /usr/local/go/bin directory in your PATH environment variable. 
+You may need to restart any open Terminal sessions for the change to take effect.
+```
+
+Check if go is accessible via terminal
+```zsh
+go version
+```
+
 ### vscode extensions
 1. CMake (twxs)
 2. Cmake Tools
@@ -360,5 +397,6 @@ brew install rstudio
 16. Python Debugger
 17. R Extension
 18. R debugger
+19. Go (official vscode extension)
 
 
