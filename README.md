@@ -166,10 +166,11 @@ brew install --cask bbedit
 4. Freedom (from Appstore)
 Download from [here](https://freedom.to/dashboard)
 
-5. Install Arc Browser
-Download from Arc page
+~5. Install Arc Browser
+~Download from Arc page
+Removed
 
-6. Install Raycast
+7. Install Raycast
 ```zsh
 brew install --cask raycast
 ```
