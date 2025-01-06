@@ -441,6 +441,10 @@ brew install vcftools
 
 6. Install SLiM/Eidos (from Messer's lab website)
 
+7. Install NCBI-Datasets (binary from NCBI)
+- Added the binaries in `~/bioinfo/tools`;
+- Then created symlinks to `~/bioinfo/bin/` (see below for instructions to setup `~/bioinfo` folder).
+
 #### Setup a folder for other bioinformatics tools:
 In `$HOME`, create a directory called bioinfo. In this folder have this following tree structure:
 ```zsh
