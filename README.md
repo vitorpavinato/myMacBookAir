@@ -537,3 +537,8 @@ brew install --cask chatgpt
 8. Install 1password (from Appstore) --> I hope to replace this for Proton Pass
 
 9. NTSF for mac (from Seagate, it is not working)
+
+## TODO's:
+- Split this file in different subfolders;
+- Make for each a short tutorial (e.g. how to setup a computer for bioinformatics);
+- Create a icon for this repository.
