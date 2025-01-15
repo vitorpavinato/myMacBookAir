@@ -316,6 +316,15 @@ brew install keybase
 sudo xcodebuild -license accept
 ```
 
+29. Install MarkText
+```zsh
+brew install --cask mark-text
+```
+
+30. Install Organic Maps (from Applestore)
+
+31. Install Garmin Express (from [here](https://www.garmin.com/en-US/software/express/mac/))
+
 ## Suggestions from ArjanCode 
 
 1. Install maccy (clipboard manager)
@@ -389,27 +398,29 @@ go version
 3. C/C++
 4. C/C++ Themes
 5. Code Runner (Jun Han) 
-6. Codeium
-7. Jupyter
-8. Jupyter Cell Tags
-9. Jupyter Keymap
-10. Jupyter Notebook Renders
-11. Jupyter Slide Show
-12. learn-markdown
-13. Marp for VS Code
-14. Pylint
-15. Python
-16. Python Debugger
-17. R Extension
-18. R debugger
-19. Go (official vscode extension)
+6. Jupyter
+7. Jupyter Cell Tags
+8. Jupyter Keymap
+9. Jupyter Notebook Renders
+10. Jupyter Slide Show
+11. learn-markdown
+12. Marp for VS Code
+13. Pylint
+14. Python
+15. Python Debugger
+16. R Extension
+17. R debugger
+18. Go (official vscode extension)
 
 ## Vivaldi extensions
 1. Papers by ReadCub
 2. LibKey Nomad
 3. Google Scholar Button
 4. 1Password
-5. Proton Pass (ready to migrate from 1Password to this)  
+5. Proton Pass (ready to migrate from 1Password to this)
+6. AdBlock
+7. Ghostery Tracker & Ad Blocker
+8. Insight - Track and Optimize Your Time Online   
 
 ## Safari extensions
 1. 1Password
