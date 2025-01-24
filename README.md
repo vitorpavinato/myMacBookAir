@@ -325,6 +325,16 @@ brew install --cask mark-text
 
 31. Install Garmin Express (from [here](https://www.garmin.com/en-US/software/express/mac/))
 
+32. Install Pandoc
+```zsh
+brew install pandoc
+```
+
+33. Install typst
+```zsh
+brew install typst
+```
+
 ## Suggestions from ArjanCode 
 
 1. Install maccy (clipboard manager)
@@ -504,6 +514,13 @@ make install
 # Create symlink in bin
 cd ~/bioinfo/bin
 ln -s ../tools/samtools-1.9/bin/samtools .
+```
+
+8. Install UCSC bigWigToWig
+Download the executable `bigWigToWig` from [here](https://hgdownload.soe.ucsc.edu/admin/exe/macOSX.arm64/)
+Move the file to `bioinfo/bin`, make the binary executable: 
+```zsh
+chmod +x bigWigToWig
 ```
 
 ## Some useful programs for Carpentry
