@@ -335,6 +335,17 @@ brew install pandoc
 brew install typst
 ```
 
+34. Install mactex
+```zsh
+brew install mactex
+```
+This installs:
+- BibDesk
+- hintview
+- LaTeXiT
+- Tex Live Utility
+- TexShop
+
 ## Suggestions from ArjanCode 
 
 1. Install maccy (clipboard manager)
@@ -421,6 +432,8 @@ go version
 16. R Extension
 17. R debugger
 18. Go (official vscode extension)
+19. LaTeX Workshop
+20. LaTeX
 
 ## Vivaldi extensions
 1. Papers by ReadCub
