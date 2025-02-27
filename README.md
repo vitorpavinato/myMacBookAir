@@ -368,9 +368,7 @@ brew install docker --cask
 brew install miniconda
 ```
 
-38. Install MacVim from [here](https://macvim.org)
-
-39. Install LibreOffice
+38. Install LibreOffice
 ```zsh
 brew install libreoffice
 ```
