@@ -202,6 +202,13 @@ or, I added these lines to the `.gitconfig` file :
 brew install parallel
 ```
 
+17. Install perl
+```zsh
+asdf plugin add perl
+asdf install perl latest
+asdf global perl latest
+```
+
 ## Applications that make all the difference
 1. Freedom (from Appstore)
 Download from [here](https://freedom.to/dashboard)
@@ -345,6 +352,29 @@ This installs:
 - LaTeXiT
 - Tex Live Utility
 - TexShop
+
+35. Install calibre (to be able to remove DMR from kindle books)
+```zsh
+brew install calibre
+```
+
+36. Install Docker
+```zsh
+brew install docker --cask
+```
+
+37. Install miniconda
+```zsh
+brew install miniconda
+```
+
+38. Install MacVim from [here](https://macvim.org)
+
+39. Install LibreOffice
+```zsh
+brew install libreoffice
+```
+
 
 ## Suggestions from ArjanCode 
 
@@ -575,13 +605,15 @@ brew install --cask slack
 brew install --cask chatgpt
 ```
 
-6. Install MS Office (from TempleUPortal)
+6. Install MS Office (from TempleUPortal) - marked to be removed (including Teams and OneDrive)
 
 7. Install Dropbox (from Dropbox) --> I don't use it much, but sometimes is good to have to backup some files that are in my office computer. I hope to replace it with Proton Drive.
 
-8. Install 1password (from Appstore) --> I hope to replace this for Proton Pass
+8. Install 1password (from Appstore) --> replaced by Proton Pass now
 
 9. NTSF for mac (from Seagate, it is not working)
+
+10. Adobe stuff (from TempleUPortal) --> Marked to be removed
 
 ## TODO's:
 - Split this file in different subfolders;
