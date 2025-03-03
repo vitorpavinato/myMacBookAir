@@ -209,6 +209,55 @@ asdf install perl latest
 asdf global perl latest
 ```
 
+18. Install grep (it is going to be similar to the linux one)
+```zsh
+brew install grep
+
+# Added gnubin PATH after installed grep from homebrew
+# The grep (egrep, grep etc) from homebrew needs to be called
+# with a g before the command, for example ggrep for grep.
+# To remove this, I needed to add this path to .zshrc
+export PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
+```
+
+19. Install vim (to isolate from the one that comes already installed)
+```zsh
+brew install vim
+```
+
+20. Install [neovim](https://github.com/neovim/neovim/blob/master/INSTALL.md); see also [here](https://neovim.io)
+```zsh
+brew install neovim
+```
+
+21. Install [NvChad](https://github.com/NvChad/NvChad?tab=readme-ov-file)
+I followed the instructions in [here](https://nvchad.com/docs/quickstart/install/):
+- first install [Ripgrep](https://github.com/BurntSushi/ripgrep) for grep search using Telescope 
+```zsh
+brew install ripgrep
+```
+
+- then installed a compatible [Nerd font](https://www.nerdfonts.com/):
+From [here](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#font-installation)
+```zsh
+brew install font-hack-nerd-font
+```
+
+- then install NvChad
+```zsh
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+
+# Run :MasonInstallAll command after lazy.nvim finishes downloading plugins.
+# Delete the .git folder from nvim folder.
+# Learn customization of ui & base46 from :h nvui.
+
+# Update 
+# Lazy sync command
+
+# I ended up removing NvChad installation to start over again when I have more experience with vim and neovim
+# For now, just learning how to use vim with the basic vim editor, the I plan to move to neovim.
+```
+
 ## Applications that make all the difference
 1. Freedom (from Appstore)
 Download from [here](https://freedom.to/dashboard)
@@ -366,6 +415,12 @@ brew install docker --cask
 37. Install miniconda
 ```zsh
 brew install miniconda
+
+# Then deactivate auto-activation of the base environment: 
+$conda config --set auto_activate_base false to disable
+
+# And added this to .zshrc
+eval "$(conda "shell.$(basename "${SHELL}")" hook)"
 ```
 
 38. Install LibreOffice
@@ -373,6 +428,11 @@ brew install miniconda
 brew install libreoffice
 ```
 
+39. Install Joplin (alternative to Apple Notes)
+```zsh
+brew install joplin
+```
+After the installation, I set the backup folder to the Dropbox folder.
 
 ## Suggestions from ArjanCode 
 
